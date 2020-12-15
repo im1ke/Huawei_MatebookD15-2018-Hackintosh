@@ -1,4 +1,4 @@
-# Huawei Matebook D15 2018 (MRC-W10) Hackintosh
+# Huawei Matebook D15 (2018, MRC-W10) Hackintosh
 ## Hardware:
 - CPU: Intel Core i5-8250U
 - GPU: Intel UHD Graphics 620
