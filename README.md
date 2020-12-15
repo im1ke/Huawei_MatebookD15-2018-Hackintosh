@@ -11,7 +11,7 @@
 ## Software:
 - Bootloader: OpenCore 0.6.4
 - Installed system: MacOS⌘ 11.1 (20C69) Big Sur
-- Tested system: MacOS 10.14.x, MacOS 10.15.x
+- Tested system's: MacOS 10.14.x, MacOS 10.15.x
 
 ## Know issues:
 - WEB-camera darkness
