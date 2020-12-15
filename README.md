@@ -13,10 +13,10 @@
 - Installed system: MacOS⌘ 11.1 (20C69) Big Sur
 - Tested system: MacOS 10.14.x, MacOS 10.15.x
 
-## Know issues
+## Know issues:
 - WEB-camera darkness
 
-## PS2 Map
+## PS2 Map:
 - F1 - Brightness Down
 - F2 - Brightness Up
 - F3 - F16
