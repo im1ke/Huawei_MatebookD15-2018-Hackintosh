@@ -9,13 +9,18 @@
 - Touchpad: ELAN 2202 i2c
 
 ## Software:
-- Bootloader: OpenCore 0.6.4
-- Installed system: MacOS⌘ 11.1 (20C69) Big Sur
+- Bootloader: OpenCore 0.7.4
+- Installed system: MacOS⌘ 11.6.1 (20G224) Big Sur
 - Tested system's: MacOS 10.14.x, MacOS 10.15.x
+- Ready to Monterey (Not tested)
 
 ## Know issues:
 - WEB-camera darkness
-
+- Easy fix this problem: clone repo [UVC-Util](https://github.com/jtfrey/uvc-util) and paste in Terminal:
+~~~~
+./uvc-util -I 0 -s brightness=80 -s contrast=20
+~~~~
+- Options **brightness** and **contrast** may have values 0>100 
 ## PS2 Map:
 - F1 - Brightness Down
 - F2 - Brightness Up
