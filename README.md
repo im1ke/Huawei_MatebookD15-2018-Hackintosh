@@ -20,7 +20,7 @@
 ~~~~
 ./uvc-util -I 0 -s brightness=80 -s contrast=20
 ~~~~
-- Options **brightness** and **contrast** may have values 0>100 
+- Options **brightness** and **contrast** may have values 0-100 
 ## PS2 Map:
 - F1 - Brightness Down
 - F2 - Brightness Up
