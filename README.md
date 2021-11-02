@@ -9,7 +9,7 @@
 - Touchpad: ELAN 2202 i2c
 
 ## Software:
-- Bootloader: OpenCore 0.7.4
+- Bootloader: OpenCore 0.7.5
 - Installed system: MacOS⌘ 11.6.1 (20G224) Big Sur
 - Tested system's: MacOS 10.14.x, MacOS 10.15.x
 - Ready to Monterey (Not tested)
