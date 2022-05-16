@@ -9,10 +9,14 @@
 - Touchpad: ELAN 2202 i2c
 
 ## Software:
-- Bootloader: OpenCore 0.7.5
-- Installed system: MacOS⌘ 11.6.1 (20G224) Big Sur
-- Tested system's: MacOS 10.14.x, MacOS 10.15.x
-- Ready to Monterey (Not tested)
+- Bootloader: OpenCore 0.8.0
+- Installed system: MacOS⌘ 12.3.1 (21E258) Monterey
+- Tested system's: MacOS 10.14.x, MacOS 10.15.x, MacOS 11.6.x
+
+## Note
+- Fix for Bluetooth module for Mojave-Bigsur - BrcmBluetoothInjector.kext enable kext in config.plist, and disable BlueToolFixup.kext
+- Fix for Bluetooth module Monterey+ - BlueToolFixup.kext enable this kext in config.plist, and disable BrcmBluetoothInjector.kext
+- Do not use this kext at the same time
 
 ## Know issues:
 - WEB-camera darkness
