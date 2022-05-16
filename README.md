@@ -3,7 +3,7 @@
 - CPU: Intel Core i5-8250U
 - GPU: Intel UHD Graphics 620
 - Audio: ALC 256
-- RAM: 1xDDR4 SK Hynix 8GB 2400Mhz
+- RAM: 16GB (1xDDR4 SK Hynix 8GB 2400Mhz & 1xDDR4 Kingston 8GB 2400Mhz)
 - Storage: SDD LITEON CV8-8E 256GB & Kingston A400 240GB
 - Wi-Fi/BT: Replaced with Broadcom 94352z (FRU 04X6020 Lenovo)
 - Touchpad: ELAN 2202 i2c
@@ -13,7 +13,7 @@
 - Installed system: MacOS⌘ 12.3.1 (21E258) Monterey
 - Tested system's: MacOS 10.14.x, MacOS 10.15.x, MacOS 11.6.x
 
-## Note
+## Note for working Bluetooth
 - Fix for Bluetooth module for Mojave-Bigsur - BrcmBluetoothInjector.kext enable kext in config.plist, and disable BlueToolFixup.kext
 - Fix for Bluetooth module Monterey+ - BlueToolFixup.kext enable this kext in config.plist, and disable BrcmBluetoothInjector.kext
 - Do not use this kext at the same time
