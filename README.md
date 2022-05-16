@@ -14,9 +14,9 @@
 - Tested system's: MacOS 10.14.x, MacOS 10.15.x, MacOS 11.6.x
 
 ## Note for working Bluetooth
-- Fix for Bluetooth module for Mojave-Bigsur - BrcmBluetoothInjector.kext enable kext in config.plist, and disable BlueToolFixup.kext
-- Fix for Bluetooth module Monterey+ - BlueToolFixup.kext enable this kext in config.plist, and disable BrcmBluetoothInjector.kext
-- Do not use this kext at the same time
+- Fix Bluetooth module for OS Mojave - Bigsur: Enable BrcmBluetoothInjector.kext in config.plist, and disable BlueToolFixup.kext
+- Fix Bluetooth module for OS Monterey and later: Enable BlueToolFixup.kext in config.plist, and disable BrcmBluetoothInjector.kext
+- Do not use these kext's at the same time
 
 ## Know issues:
 - WEB-camera darkness
