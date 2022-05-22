@@ -18,13 +18,13 @@
 - Fix Bluetooth module for OS Monterey and later: Enable BlueToolFixup.kext in config.plist, and disable BrcmBluetoothInjector.kext
 - Do not use these kext's at the same time
 
-## ~~Know issues:
-- ~~WEB-camera darkness
-- ~~Easy fix this problem: clone repo [UVC-Util](https://github.com/jtfrey/uvc-util) and paste in Terminal:
-~~~~
-~~./uvc-util -I 0 -s brightness=80 -s contrast=20
-~~~~
-~- Options **brightness** and **contrast** may have values 0-100 
+## ~~Know issues:~~
+- ~~WEB-camera darkness~~
+- ~~Easy fix this problem: clone repo [UVC-Util](https://github.com/jtfrey/uvc-util) and paste in Terminal:~~
+~~~~~~
+~~./uvc-util -I 0 -s brightness=80 -s contrast=20~~
+~~~~~~
+~~- Options **brightness** and **contrast** may have values 0-100~~ 
 ## PS2 Map:
 - F1 - Brightness Down
 - F2 - Brightness Up
