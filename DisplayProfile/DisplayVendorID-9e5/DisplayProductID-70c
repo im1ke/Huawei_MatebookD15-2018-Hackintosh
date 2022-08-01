@@ -4,6 +4,8 @@
 <dict>
 	<key>DisplayProductID</key>
 	<integer>1804</integer>
+	<key>DisplayProductName</key>
+	<string>Huawei Internal Display</string>
 	<key>DisplayVendorID</key>
 	<integer>2533</integer>
 	<key>IODisplayEDID</key>
